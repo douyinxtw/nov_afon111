@@ -4,7 +4,7 @@ body {
   font-family: 'Inter', sans-serif;
   background: #0a0806;
   color: #d8d0c0;
-  line-height: 1.8;
+  line-height: 1.85;
 }
 
 h1, h2, h3 {
@@ -36,16 +36,16 @@ h1, h2, h3 {
   margin-bottom: 1rem;
 }
 
-/* Intro text — узкий и готический */
+/* Intro text — более вытянутый */
 .intro {
-  max-width: 720px; /* сделал уже */
-  margin: 60px auto;
-  padding: 50px 40px;
+  max-width: 620px; /* сделал уже */
+  margin: 70px auto;
+  padding: 50px 35px;
   border: 1px solid #3a2f25;
   background: #1c1814;
   text-align: center;
-  font-size: 1.28rem;
-  line-height: 2.0; /* высокий межстрочный */
+  font-size: 1.22rem;
+  line-height: 2.1; /* высокий межстрочный */
   border-radius: 8px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -70,9 +70,8 @@ h1, h2, h3 {
 
 .card h3 {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   padding: 22px 20px 12px;
-  letter-spacing: 2px;
 }
 
 .card-img {
@@ -84,11 +83,10 @@ h1, h2, h3 {
 }
 
 .card p {
-  padding: 0 30px 30px;
+  padding: 0 28px 28px;
   color: #b8a88f;
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   line-height: 1.85;
-  font-family: 'Playfair Display', serif;
 }
 
 footer {
