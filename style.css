@@ -1,0 +1,72 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0a0806;
+  color: #d8d0c0;
+  line-height: 1.7;
+}
+
+.hero {
+  height: 85vh;
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://i.imgur.com/U5Fu6y1.jpeg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.6rem;
+  margin-bottom: 0.8rem;
+  color: #c9a96e;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.9);
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  color: #b38b4d;
+}
+
+.cards {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #1c1814;
+  border: 1px solid #3a2f25;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+  transition: transform 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-12px);
+}
+
+.card-img {
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card h3 {
+  padding: 18px 18px 10px;
+  font-size: 1.45rem;
+  color: #e8d5b8;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background: #0a0806;
+  color: #8c7a66;
+  font-style: italic;
+}
